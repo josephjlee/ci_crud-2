@@ -20,7 +20,7 @@ class Auth extends CI_Controller
         $this->load->library('form_validation');
         $this->form_validation->set_rules(
             'username', 
-            'Username', 
+            'Usernamex', 
             'required'
         );
         $this->form_validation->set_rules(
